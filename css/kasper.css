@@ -6,6 +6,14 @@
 /* Start Global Rules */
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style: none;
 }
 * {
   box-sizing: border-box;
