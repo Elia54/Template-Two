@@ -27,6 +27,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+::selection {
+  background-color: var(--main-color);
+  color: white;
+}
 /* Small */
 @media (min-width: 768px) {
   .container {
@@ -502,3 +506,22 @@ header nav .form i {
   border: none;
 }
 /* End Video */
+/* Start About */
+.about {
+  padding-top: var(--section-padding);
+  overflow: hidden;
+  text-align: center;
+}
+.about img {
+  position: relative;
+  bottom: -120px;
+  margin-top: -120px;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .about img {
+    bottom: -60px;
+    margin-top: -60px;
+  }
+}
+/* End About */
